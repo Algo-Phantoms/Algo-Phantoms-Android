@@ -11,7 +11,7 @@
 
 
 
-#### 📱 Algo-Phantoms-Android App is an Android Application that provides a code editor along with pathways to help you towards your DSA journey.📰🔥
+#### 📱 Algo-Phantoms-Android App is an Android Application that provides a code editor along with pathways and quizzes to help you towards your DSA journey.📰🔥
 
 ## 🔥 Features
 📰 Write and edit your code in your smartphones.
@@ -33,6 +33,17 @@
 ## 💭Requirements
 - Android Version 4.4 or Above.
 - Min SDK 18.
+
+## 😎Maintainers
+<table>
+  <tbody><tr>
+    <td align="center"><a href="https://github.com/nakul-19"><img alt="" src="https://avatars.githubusercontent.com/nakul-19" width="100px;"><br><sub><b> Nakul Sharma </b></sub></a><br><a href="https://github.com/Algo-Phantoms/Algo-Tree/commits?author=major-beast" title="Code">💻 🖋</a></td></a></td>
+    <td align="center"><a href="https://github.com/dheerajkotwani"><img alt="" src="https://avatars.githubusercontent.com/dheerajkotwani" width="100px;"><br><sub><b> Dheeraj Kotwani </b></sub></a><br><a href="https://github.com/Algo-Phantoms/Algo-Tree/commits?author=geekquad" title="Code">💻 🖋</a></td> </a></td>
+    <td align="center"><a href="https://github.com/plazzy99"><img alt="" src="https://avatars.githubusercontent.com/plazzy99" width="100px;"><br><sub><b>
+ Vatsal Kesarwani </b></sub></a><br><a href="https://github.com/Algo-Phantoms/Algo-Tree/commits?author=major-beast" title="Code">💻 🖋</a></td></a></td>
+  </tr>
+</tbody></table>
+
 
 ## 📄License
 ##### You can find the [LICENSE](https://github.com/Algo-Phantoms/Algo-Phantoms-Android/blob/main/LICENSE) for the app here.
