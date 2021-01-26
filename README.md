@@ -4,7 +4,7 @@
 # Algo-Phantoms-Android
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-%2397ca00.svg)](https://github.com/Algo-Phantoms/Algo-Phantoms-Android/blob/main/LICENSE)
-![Minimum API Level](https://img.shields.io/badge/Min%20API%20Level-18-green)
+![Minimum API Level](https://img.shields.io/badge/Min%20API%20Level-16-green)
 ![Maximum API Level](https://img.shields.io/badge/Max%20API%20Level-30-orange)
 [![GitHub stars](https://img.shields.io/github/stars/Algo-Phantoms/Algo-Phantoms-Android?style=social)](https://github.com/Algo-Phantoms/Algo-Phantoms-Android)
 [![GitHub forks](https://img.shields.io/github/forks/Algo-Phantoms/Algo-Phantoms-Android?style=social)](https://github.com/Algo-Phantoms/Algo-Phantoms-Android)
@@ -31,16 +31,16 @@
 - MVVM
 
 ## 💭Requirements
-- Android Version 4.4 or Above.
+- Android Version 4.0 or Above.
 - Min SDK 18.
 
 ## 😎Maintainers
 <table>
   <tbody><tr>
-    <td align="center"><a href="https://github.com/nakul-19"><img alt="" src="https://avatars.githubusercontent.com/nakul-19" width="100px;"><br><sub><b> Nakul Sharma </b></sub></a><br><a href="https://github.com/Algo-Phantoms/Algo-Tree/commits?author=major-beast" title="Code">💻 🖋</a></td></a></td>
     <td align="center"><a href="https://github.com/dheerajkotwani"><img alt="" src="https://avatars.githubusercontent.com/dheerajkotwani" width="100px;"><br><sub><b> Dheeraj Kotwani </b></sub></a><br><a href="https://github.com/Algo-Phantoms/Algo-Tree/commits?author=geekquad" title="Code">💻 🖋</a></td> </a></td>
     <td align="center"><a href="https://github.com/plazzy99"><img alt="" src="https://avatars.githubusercontent.com/plazzy99" width="100px;"><br><sub><b>
  Vatsal Kesarwani </b></sub></a><br><a href="https://github.com/Algo-Phantoms/Algo-Tree/commits?author=major-beast" title="Code">💻 🖋</a></td></a></td>
+ <td align="center"><a href="https://github.com/nakul-19"><img alt="" src="https://avatars.githubusercontent.com/nakul-19" width="100px;"><br><sub><b> Nakul Sharma </b></sub></a><br><a href="https://github.com/Algo-Phantoms/Algo-Tree/commits?author=major-beast" title="Code">💻 🖋</a></td></a></td>
   </tr>
 </tbody></table>
 
