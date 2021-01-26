@@ -31,8 +31,8 @@
 - MVVM
 
 ## 💭Requirements
-- Android Version 4.0 or Above.
-- Min SDK 18.
+- Android Version 4.1 or Above.
+- Min SDK 16.
 
 ## 😎Maintainers
 <table>
