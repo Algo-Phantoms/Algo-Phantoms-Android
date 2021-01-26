@@ -37,10 +37,10 @@
 ## 😎Maintainers
 <table>
   <tbody><tr>
-    <td align="center"><a href="https://github.com/dheerajkotwani"><img alt="" src="https://avatars.githubusercontent.com/dheerajkotwani" width="100px;"><br><sub><b> Dheeraj Kotwani </b></sub></a><br><a href="https://github.com/Algo-Phantoms/Algo-Tree/commits?author=geekquad" title="Code">💻 🖋</a></td> </a></td>
+    <td align="center"><a href="https://github.com/dheerajkotwani"><img alt="" src="https://avatars.githubusercontent.com/dheerajkotwani" width="100px;"><br><sub><b> Dheeraj Kotwani </b></sub></a><br><a href="https://github.com/Algo-Phantoms/Algo-Phantoms-Android/commits?author=dheerajkotwani" title="Code">💻 🖋</a></td> </a></td>
     <td align="center"><a href="https://github.com/plazzy99"><img alt="" src="https://avatars.githubusercontent.com/plazzy99" width="100px;"><br><sub><b>
- Vatsal Kesarwani </b></sub></a><br><a href="https://github.com/Algo-Phantoms/Algo-Tree/commits?author=major-beast" title="Code">💻 🖋</a></td></a></td>
- <td align="center"><a href="https://github.com/nakul-19"><img alt="" src="https://avatars.githubusercontent.com/nakul-19" width="100px;"><br><sub><b> Nakul Sharma </b></sub></a><br><a href="https://github.com/Algo-Phantoms/Algo-Tree/commits?author=major-beast" title="Code">💻 🖋</a></td></a></td>
+ Vatsal Kesarwani </b></sub></a><br><a href="https://github.com/Algo-Phantoms/Algo-Phantoms-Android/commits?author=plazzy99" title="Code">💻 🖋</a></td></a></td>
+ <td align="center"><a href="https://github.com/nakul-19"><img alt="" src="https://avatars.githubusercontent.com/nakul-19" width="100px;"><br><sub><b> Nakul Sharma </b></sub></a><br><a href="https://github.com/Algo-Phantoms/Algo-Phantoms-Android/commits?author=nakul-19" title="Code">💻 🖋</a></td></a></td>
   </tr>
 </tbody></table>
 
