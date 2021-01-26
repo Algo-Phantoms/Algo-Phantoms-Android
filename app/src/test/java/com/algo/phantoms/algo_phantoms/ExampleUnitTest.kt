@@ -1,4 +1,4 @@
-package com.algo.phantoms.algo_phantom
+package com.algo.phantoms.algo_phantoms
 
 import org.junit.Test
 
