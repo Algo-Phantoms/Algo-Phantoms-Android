@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity(), FragmentChangeInterface {
         binding.bottomNav.selectedItemId = R.id.code
         resizeIcons(R.id.code)
 
-        changeFragment(PathwayFragment())
+        changeFragment(CodeFragment())
 
     }
 

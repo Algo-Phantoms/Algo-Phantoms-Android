@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.algo.phantoms.algo_phantoms.R
 import com.algo.phantoms.algo_phantoms.databinding.FragmentCodeBinding
+import me.testica.codeeditor.SyntaxHighlightRule
 
 class CodeFragment : Fragment() {
 
@@ -21,6 +22,11 @@ class CodeFragment : Fragment() {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_code, container, false)
         binding = FragmentCodeBinding.bind(view)
+        binding.editor.setSyntaxHighlightRules(
+            SyntaxHighlightRule("[0-9]*", "#0095FF"),
+            SyntaxHighlightRule("[^A-Za-z0-9]","#F1681F"),
+            SyntaxHighlightRule("[A-Za-z]", "#FFFBB5")
+        )
         return view
     }
 

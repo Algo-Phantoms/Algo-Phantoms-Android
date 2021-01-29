@@ -3,12 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragments.CodeFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <me.testica.codeeditor.Editor
+        android:id="@+id/editor"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Code Fragment" />
+        app:textSize="16sp"
+        android:text="" />
 
 </FrameLayout>
