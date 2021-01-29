@@ -1,8 +1,10 @@
 package com.algo.phantoms.algo_phantoms.activities
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
+import android.util.TypedValue
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.algo.phantoms.algo_phantoms.FragmentChangeInterface
@@ -11,14 +13,14 @@ import com.algo.phantoms.algo_phantoms.databinding.ActivityMainBinding
 import com.algo.phantoms.algo_phantoms.fragments.CodeFragment
 import com.algo.phantoms.algo_phantoms.fragments.PathwayFragment
 import com.algo.phantoms.algo_phantoms.fragments.ProfileFragment
-import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.android.material.bottomnavigation.BottomNavigationItemView
 
 class MainActivity : AppCompatActivity(), FragmentChangeInterface {
 
     companion object {
-        private lateinit var binding : ActivityMainBinding
+        private lateinit var binding: ActivityMainBinding
 
-        fun start(context : Context) {
+        fun start(context: Context) {
             context.startActivity(Intent(context, MainActivity::class.java))
         }
     }
@@ -30,7 +32,8 @@ class MainActivity : AppCompatActivity(), FragmentChangeInterface {
 
         navChangeListener()
 
-        binding.bottomNav.selectedItemId = R.id.pathway
+        binding.bottomNav.selectedItemId = R.id.code
+        resizeIcons(R.id.code)
 
         changeFragment(PathwayFragment())
 
@@ -51,6 +54,7 @@ class MainActivity : AppCompatActivity(), FragmentChangeInterface {
                     changeFragment(ProfileFragment())
                 }
             }
+            resizeIcons(it.itemId)
             return@setOnNavigationItemSelectedListener true
         }
     }
@@ -61,5 +65,19 @@ class MainActivity : AppCompatActivity(), FragmentChangeInterface {
             .replace(R.id.main_frame, fragment)
             .commit()
     }
+
+    @SuppressLint("RestrictedApi")
+    private fun resizeIcons(itemId: Int) {
+        val menuView = binding.bottomNav
+        menuView.itemIconSize =
+            TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 24f, resources.displayMetrics)
+                .toInt()
+        val selectedSize =
+            TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 32f, resources.displayMetrics)
+                .toInt()
+        val iconView = menuView.findViewById<BottomNavigationItemView>(itemId)
+        iconView.setIconSize(selectedSize)
+    }
+
 
 }
