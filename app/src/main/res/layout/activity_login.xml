@@ -17,7 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:text="Welcome to"
+        android:text="@string/welcome_string"
         android:textColor="@color/teal_dark"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout"

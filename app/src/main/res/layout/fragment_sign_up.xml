@@ -27,7 +27,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="56dp"
-                android:hint="Email"
+                android:hint="@string/email_hint"
                 android:textColor="@color/white"
                 android:textColorHint="#086852"
                 app:boxStrokeColor="@color/teal"
@@ -51,7 +51,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="56dp"
                 android:layout_marginTop="24dp"
-                android:hint="Password"
+                android:hint="@string/password_hint"
                 android:textColor="@color/white"
                 android:textColorHint="#086852"
                 app:boxStrokeColor="@color/teal"
@@ -78,7 +78,7 @@
             android:layout_marginVertical="40dp"
             android:background="@color/teal"
             android:fontFamily="@font/open_sans"
-            android:text="Sign up"
+            android:text="@string/sign_up"
             android:textColor="@color/navy"
             android:textSize="18sp"
             app:layout_constraintBottom_toTopOf="@+id/linearLayout"
@@ -97,7 +97,7 @@
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Already have an account?  "
+                android:text="@string/already_have_an_account"
                 android:textColor="@color/white"
                 android:textSize="16sp" />
 
@@ -105,7 +105,7 @@
                 android:id="@+id/signInText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=" SIGN IN "
+                android:text="@string/sign_in"
                 android:textColor="@color/teal"
                 android:textSize="16sp" />
 
