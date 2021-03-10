@@ -29,7 +29,7 @@
                 android:layout_marginHorizontal="56dp"
                 android:hint="Email"
                 android:textColor="@color/white"
-                android:textColorHint="#086852"
+                android:textColorHint="@color/white"
                 app:boxStrokeColor="@color/teal"
                 app:boxStrokeErrorColor="#CB4343"
                 app:boxStrokeWidth="1dp">
@@ -40,6 +40,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/open_sans"
                     android:imeOptions="actionNext"
+                    android:textColor="@color/white"
                     android:inputType="textEmailAddress" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -53,7 +54,7 @@
                 android:layout_marginTop="24dp"
                 android:hint="Password"
                 android:textColor="@color/white"
-                android:textColorHint="#086852"
+                android:textColorHint="@color/white"
                 app:boxStrokeColor="@color/teal"
                 app:boxStrokeErrorColor="#CB4343"
                 app:boxStrokeWidth="1dp">
@@ -64,6 +65,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/open_sans"
                     android:imeOptions="actionDone"
+                    android:textColor="@color/white"
                     android:inputType="textPassword" />
 
             </com.google.android.material.textfield.TextInputLayout>
