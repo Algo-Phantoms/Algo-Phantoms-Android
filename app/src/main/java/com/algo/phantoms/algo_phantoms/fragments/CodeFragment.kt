@@ -23,9 +23,9 @@ class CodeFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_code, container, false)
         binding = FragmentCodeBinding.bind(view)
         binding.editor.setSyntaxHighlightRules(
-            SyntaxHighlightRule("[0-9]*", "#0095FF"),
-            SyntaxHighlightRule("[^A-Za-z0-9]","#F1681F"),
-            SyntaxHighlightRule("[A-Za-z]", "#FFFBB5")
+                SyntaxHighlightRule("[0-9]*", "#6512c4"),
+                SyntaxHighlightRule("[^A-Za-z0-9]","#F30E0B"),
+                SyntaxHighlightRule("[A-Za-z]", "#242322")
         )
         return view
     }
