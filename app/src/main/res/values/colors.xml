@@ -8,4 +8,7 @@
     <color name="teal_dark">#087D61</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="mirage">#182434</color>
+    <color name="coloud_burst">#1E2D40</color>
+    <color name="mojo">#CB4343</color>
 </resources>

@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:background="@color/navy"
         app:itemIconTint="@drawable/bottom_nav_icon_selector"
-        app:itemRippleColor="#182434"
+        app:itemRippleColor="@color/mirage"
         app:labelVisibilityMode="unlabeled"
         app:layout_constraintBottom_toBottomOf="parent"
         app:menu="@menu/bottom_nav_menu" />
