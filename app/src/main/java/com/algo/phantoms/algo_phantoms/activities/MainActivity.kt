@@ -78,6 +78,9 @@ class MainActivity : AppCompatActivity(), FragmentChangeInterface {
         val iconView = menuView.findViewById<BottomNavigationItemView>(itemId)
         iconView.setIconSize(selectedSize)
     }
+    override fun onBackPressed() {
+        finishAffinity()
+    }
 
 
 }

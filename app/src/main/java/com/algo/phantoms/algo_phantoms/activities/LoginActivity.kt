@@ -15,7 +15,7 @@ import com.algo.phantoms.algo_phantoms.fragments.SignUpFragment
 class LoginActivity : AppCompatActivity(), FragmentChangeInterface {
 
     companion object {
-        private lateinit var binding: ActivityLoginBinding
+        lateinit var binding: ActivityLoginBinding
 
         fun start(context : Context) {
             context.startActivity(Intent(context, LoginActivity::class.java))
@@ -37,6 +37,10 @@ class LoginActivity : AppCompatActivity(), FragmentChangeInterface {
             .beginTransaction()
             .replace(R.id.frameLayout, fragment)
             .commit()
+    }
+
+    override fun onBackPressed() {
+        finishAffinity()
     }
 
 }
