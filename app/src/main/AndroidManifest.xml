@@ -13,11 +13,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AlgoPhantoms">
 
-        <activity android:name=".activities.SplashScreenActivity"/>
-
-        <activity
-            android:name=".activities.LoginActivity"
-            android:theme="@style/Theme.AlgoPhantoms.Login">
+        <activity android:name=".activities.SplashScreenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,12 +24,13 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".activities.MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity
+            android:name=".activities.LoginActivity"
+            android:theme="@style/Theme.AlgoPhantoms.Login">
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        </activity>
+
+        <activity android:name=".activities.MainActivity">
         </activity>
 
         <meta-data
