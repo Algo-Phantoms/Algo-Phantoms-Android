@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Algo-Phantoms</string>
+    <string name="welcome_string">Welcome to</string>
+    <string name="pathway_fragment">Pathway Fragment</string>
+    <string name="profile_fragment">Profile Fragment</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="already_have_an_account">Already have an account?</string>
 </resources>
