@@ -5,6 +5,7 @@ import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import android.os.Looper
 import android.view.WindowInsets
 import android.view.WindowManager
 import com.algo.phantoms.algo_phantoms.R
@@ -22,8 +23,7 @@ class SplashScreenActivity : AppCompatActivity() {
                     WindowManager.LayoutParams.FLAG_FULLSCREEN
             )
         }
-        @Suppress("DEPRECATION")
-        Handler().postDelayed({
+        Handler(Looper.getMainLooper()).postDelayed({
             startActivity(Intent(this@SplashScreenActivity, LoginActivity::class.java))
         },
                 2500);
