@@ -14,7 +14,7 @@
         android:theme="@style/Theme.AlgoPhantoms">
         <activity
             android:name=".activities.SplashScreenActivity"
-            android:theme="@style/Theme.AlgoPhantoms1" >
+            android:theme="@style/Theme.AlgoPhantomsNoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
