@@ -56,4 +56,16 @@
   <img src="https://camo.githubusercontent.com/e82fcde6b4952d69611ae4cf507b13fe6ae8e028/68747470733a2f2f666f7274686562616467652e636f6d2f696d616765732f6261646765732f6275696c742d666f722d616e64726f69642e737667"/>
 </p>
 
+### Credit to these wonderful people !! ✨✨:
+
+<table>
+	<tr>
+		<td>
+      <a href="https://github.com/Algo-Phantoms/Algo-Phantoms-Android/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Algo-Phantoms/Algo-Phantoms-Android" />
+</a>
+		</td>
+	</tr>
+</table>
+
 <h2 align="center">Made with ❤ by Algo Phantoms</h2>
