@@ -22,13 +22,17 @@
 
 ⚡ Based on MVVM Architecture - the most preferred architecture.
 
-## 🛠 Tech Used
-- Android
-- Kotlin
-- Retrofit
-- Coroutines
-- GitHub API
-- MVVM
+## 🛠 Tech Stack:
+
+
+
+  <img alt="Android" src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white">
+  <img alt="Kotlin" src=https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white>
+  <img alt="Retrofit" src=	https://img.shields.io/badge/Retrofit-6CD8A1?style=for-the-badge&logoColor=white>
+   <img alt="Coroutines" src=	https://img.shields.io/badge/Coroutines-379CEE?style=for-the-badge&logoColor=white>
+   <img alt="Github API" src=https://img.shields.io/badge/GitHub_API-100000?style=for-the-badge&logo=github&logoColor=white>
+   <img alt="MVVM" src=https://img.shields.io/badge/MVVM-F247F7?style=for-the-badge&logoColor=white>
+
 
 ## 💭Requirements
 - Android Version 4.1 or Above.
