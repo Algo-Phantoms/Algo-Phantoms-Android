@@ -17,6 +17,13 @@ import com.google.android.material.bottomnavigation.BottomNavigationItemView
 
 class MainActivity : AppCompatActivity(), FragmentChangeInterface {
 
+    private var currentFragmentPosition = 0
+    /* position 1 refers to "pathway" fragment
+     * position 2 refers to "code" fragment
+     * position 3 refers to "profile" fragment
+     */
+    private var startingFragmentPosition = 2
+
     companion object {
         private lateinit var binding: ActivityMainBinding
 
@@ -45,12 +52,15 @@ class MainActivity : AppCompatActivity(), FragmentChangeInterface {
                 return@setOnNavigationItemSelectedListener true
             when (it.itemId) {
                 R.id.pathway -> {
+                    currentFragmentPosition = 1
                     changeFragment(PathwayFragment())
                 }
                 R.id.code -> {
+                    currentFragmentPosition = 2
                     changeFragment(CodeFragment())
                 }
                 R.id.profile -> {
+                    currentFragmentPosition = 3
                     changeFragment(ProfileFragment())
                 }
             }
@@ -60,10 +70,30 @@ class MainActivity : AppCompatActivity(), FragmentChangeInterface {
     }
 
     override fun changeFragment(fragment: Fragment) {
-        supportFragmentManager
-            .beginTransaction()
-            .replace(R.id.main_frame, fragment)
-            .commit()
+        when {
+            currentFragmentPosition < startingFragmentPosition -> {
+                supportFragmentManager
+                    .beginTransaction()
+                    .setCustomAnimations(R.anim.enter_left_to_right, R.anim.exit_left_to_right, R.anim.enter_right_to_left, R.anim.exit_right_to_left)
+                    .replace(R.id.main_frame, fragment)
+                    .commit()
+                startingFragmentPosition = currentFragmentPosition
+            }
+            currentFragmentPosition > startingFragmentPosition -> {
+                supportFragmentManager
+                    .beginTransaction()
+                    .setCustomAnimations(R.anim.enter_right_to_left, R.anim.exit_right_to_left, R.anim.enter_left_to_right, R.anim.exit_left_to_right)
+                    .replace(R.id.main_frame, fragment)
+                    .commit()
+                startingFragmentPosition = currentFragmentPosition
+            }
+            else -> {
+                supportFragmentManager
+                    .beginTransaction()
+                    .replace(R.id.main_frame, fragment)
+                    .commit()
+            }
+        }
     }
 
     @SuppressLint("RestrictedApi")
@@ -79,5 +109,16 @@ class MainActivity : AppCompatActivity(), FragmentChangeInterface {
         iconView.setIconSize(selectedSize)
     }
 
-
+    override fun onBackPressed() {
+        /* On pressing back button, 'main_frame' gets set to "code" fragment irrespective
+         * of on which fragment back button was clicked. On further pressing the back button,
+         * the main activity closes.
+         */
+        if (binding.bottomNav.selectedItemId == R.id.code) {
+            super.onBackPressed()
+            finish()
+        } else {
+            binding.bottomNav.selectedItemId = R.id.code
+        }
+    }
 }
