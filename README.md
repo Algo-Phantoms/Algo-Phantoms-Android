@@ -14,7 +14,7 @@
 #### 📱 Algo-Phantoms-Android App is an Android Application that provides a code editor along with pathways and quizzes to help you towards your DSA journey.📰🔥
 
 ## 🔥 Features
-📰 Write and edit your code in your smartphones.
+📰 Write and edit your code on your smartphones.
 
 ✨ Play quizzes to improve your DSA fundamentals.
 
@@ -57,3 +57,5 @@
 </p>
 
 <h2 align="center">Made with ❤ by Algo Phantoms</h2>
+
+
